@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.HomeCTL">
+    <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="800.0" prefWidth="1180.0">
+            <children>
+                <Button layoutX="113.0" layoutY="162.0" mnemonicParsing="false" onAction="#roomsModule" prefHeight="199.0" prefWidth="265.0" text="Rooms" textFill="#127fcd">
+                    <font>
+                        <Font size="35.0" />
+                    </font>
+                </Button>
+                <Button layoutX="789.0" layoutY="170.0" mnemonicParsing="false" onAction="#customerModule" prefHeight="201.0" prefWidth="348.0" text="Customer" textFill="#127fcc">
+                    <font>
+                        <Font size="37.0" />
+                    </font>
+                </Button>
+                <Button layoutX="354.0" layoutY="416.0" mnemonicParsing="false" onAction="#orderroomsModule" prefHeight="238.0" prefWidth="471.0" text="OrderRooms" textFill="#127fcc">
+                    <font>
+                        <Font size="60.0" />
+                    </font>
+                </Button>
+            <Text fill="#d76bbf" layoutX="317.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hotel Richfield" textAlignment="CENTER" wrappingWidth="545.6650390625">
+               <font>
+                  <Font size="49.0" />
+               </font>
+            </Text>
+            </children></AnchorPane>
+    </content>
+</ScrollPane>
